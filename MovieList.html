@@ -87,7 +87,7 @@
             {{actor.actorName}}
             </div>--> 
           </div>
-          <div>
+          <div class="movie-button">
             <button ng-hide="movie.watchlist" ng-class="movie.watchlist ? 'btn btn-danger' :  'btn btn-success'" ng-click="addToWatchlist(movie)"><span>WatchList+</span></button>
             <button ng-show="movie.watchlist" class="btn btn-danger" ng-click="open(movie)"><span>WatchList-</span></button>
           </div>
