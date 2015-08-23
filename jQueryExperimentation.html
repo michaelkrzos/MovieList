@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+
+function changeBackground(color){
+	document.body.style.background = color;
+	document.getElementById('myDiv').style.backgroundColor = 'black';
+	$('#myDiv').css('background-color', '#35D252');
+}
+
+</script>
+
+</head>
+<body onLoad="changeBackground('red');">
+<div id="myDiv" class="myClass" style="height:40px;width:40px;"></div>
+</body>
+</html>

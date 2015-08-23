@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.label-header {
+	font-size:1.5em;
+}
+
+.rounded-corners(@radius: 10px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.navbar {
+	background-color:#2F2E2E;
+	color:#FFFFFF;
+	padding:15px;
+}
+
+.navbar img {
+	height:40px;
+	margin-right:10px;
+}
+
+.moviePanel { 
+	margin-top:15px;
+	padding-bottom:15px;
+	border-bottom:solid thin #428bca;
+
+	h4 { 
+		color:#428bca;
+	}
+	
+	img {
+		max-width: 100px;
+		margin-right: 10px;
+	}
+	
+	div {
+		display:inline-block; 
+		vertical-align:top;
+		max-width: 300px;
+	}
+}
+
+.well {
+/*	box-shadow: 5px 9px 8px 2px rgba(23, 22, 22, 0.43);*/
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	.rounded-corners(35px);
+}
