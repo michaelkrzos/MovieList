@@ -1,9 +1,9 @@
+/* global angular */
 (function(){ 
   var app = angular.module('movieList', ['truncateFilters', 'ngAnimate', 'ui.bootstrap']).controller('MovieListController', ['$scope', '$http', '$templateCache', '$modal', 
   function($scope, $http, $templateCache, $modal) {
     $scope.method = 'GET';
     $scope.baseurl = 'http://www.myapifilms.com/imdb?limit=10&title=';
-   // $scope.baseurl = 'http://www.imdb.com/xml/find?xml=1&nr=1&tt=on&q=';
 	$scope.loading = 0;
 
 	$scope.watchListMovies = [];
