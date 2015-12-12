@@ -3,7 +3,7 @@
   var app = angular.module('movieList', ['truncateFilters', 'ngAnimate', 'ui.bootstrap']).controller('MovieListController', ['$scope', '$http', '$templateCache', '$modal', 
   function($scope, $http, $templateCache, $modal) {
     $scope.method = 'GET';
-    $scope.baseurl = 'http://www.myapifilms.com/imdb?limit=10&title=';
+    $scope.baseurl = 'http://www.myapifilms.com/imdb?limit=15&title=';
 	$scope.loading = 0;
 
 	$scope.watchListMovies = [];
